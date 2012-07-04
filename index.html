@@ -1,0 +1,37 @@
+<html><head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.divTextResize.js" ></script>
+  <title>Example of TextFill jQuery Plugin</title>
+  <script type="text/javascript">
+    $(window).load(function() {
+      $('.sizetext').divTextResize({ 
+	  		maxFontSize: 70,
+			height: 150,
+			width: 250
+  });
+    });
+  </script>
+
+  <style type="text/css">
+    body  { margin:0;}
+    .sizetext
+    {
+      text-align:center;
+      background-color:#fff;
+      position:absolute;
+      left:20px;
+      top:30px;
+  	  border:dotted;
+	  border-color:#009;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+       <div class="sizetext">
+          <span>P r a v e e n akjsd  alksdf h askdfjh a;ks as dfkj asd f; sadfhasd askdhf lkasdh  askdjhf klasdf</span>
+        </div>
+   </div>
+</body>
+</html>
